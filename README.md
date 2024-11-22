@@ -10,7 +10,7 @@
   - A three-layer tree-like architecture:
     - **Main Agent**: Centralized task allocator and coordinator.
     - **Sub-Agents**: Specialized agents that solve tasks using pre-defined tools.
-    - **Inter-Connected Lower-Level Nodes**: Sub-agents that can communicate for task dependencies, allowing them to complete simultaneous Agent call widout having to report to the parent node every time 
+    - **Inter-Connected Lower-Level Nodes**: Sub-agents that can communicate for task dependencies, allowing them to complete simultaneous Agent call widout having to report to the parent node every time .This can enhance the efficiency of decision-making at the lower level since agents can quickly exchange data locally.
 
 - **Input Versatility**  
   - Supports **audio** or **text** inputs.
