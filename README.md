@@ -13,7 +13,7 @@
     - **Lower-Level Nodes**: Sub-agents that can communicate for task dependencies, allowing them to complete simultaneous Agent call widout having to report to the parent node every time .This can enhance the efficiency of decision-making at the lower level since agents can quickly exchange data locally.
     -  **Better Scalability**:By reducing reliance on the parent node for dependent task coordination, the system becomes more scalable. As you add more lower-level nodes, the hierarchical bottleneck is alleviated.
 
-    - **localized inter-node communication**: The connected lower-level nodes can directly coordinate task execution among themselves without frequently reporting back to the parent node.Dependent tasks can proceed without waiting for hierarchical instructions, this reduces latency and speeds up the overall process.
+    - **localized inter-node communication**: The connected lower-level nodes can directly coordinate task execution among themselves without frequently reporting back to the parent node.Dependent tasks can proceed without waiting for hierarchical instructions, this reduces latency and speeds up the overall process. provides flexibility where tasks with dependencies use localized communication, but independent tasks report to the parent node directly.
 
 - **Input Versatility**  
   - Supports **audio** or **text** inputs.
